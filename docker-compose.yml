@@ -1,0 +1,6 @@
+services:
+  virtualenv:
+    image: venv
+    build: ~/Projects/Resources/Docker_scripts/virtualenv/
+    volumes:
+      - ./venv:/venv/venv/
